@@ -1,7 +1,24 @@
 aid: ukio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ukio.png
 name: Ukio
-description: 'Ukio is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Ukio is a Barcelona-founded proptech company offering monthly furnished
+  apartment rentals across Europe, with apartments in Barcelona, Madrid,
+  Berlin, Lisbon, Milan, and Paris. It serves individuals relocating for work
+  or lifestyle, provides corporate housing for companies, and partners with
+  property owners through a real-estate property-management program. Backed by
+  Partech. Ukio publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/ukio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Real Estate
+- PropTech
+- Housing
+- Rentals
+- Corporate Housing
+- Travel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +46,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.stayukio.com/
+  url: https://ukio.com/
+- type: Support
+  url: https://ukio.com/faq
+- type: Contact
+  url: https://ukio.com/contact-us
+- type: Blog
+  url: https://medium.com/ukio
+- type: Careers
+  url: https://apply.workable.com/ukio/
+- type: TermsOfService
+  url: https://ukio.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://ukio.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/UkioInc
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ukio
+- type: LLMsTxt
+  url: llms/ukio-llms.txt
+- type: DomainSecurity
+  url: security/ukio-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

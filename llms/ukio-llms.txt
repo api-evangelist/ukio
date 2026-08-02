@@ -1,0 +1,21 @@
+# Ukio
+
+> Ukio is a Barcelona-founded proptech company offering monthly furnished apartment rentals across Europe — Barcelona, Madrid, Berlin, Lisbon, Milan, and Paris — plus corporate housing for companies and a property-management program for real-estate owners. Ukio publishes no public developer API, SDKs, or API documentation.
+
+## Company
+
+- [Website](https://ukio.com/): Monthly furnished apartment rentals across Europe (formerly stayukio.com).
+- [About us](https://ukio.com/about-us)
+- [FAQ](https://ukio.com/faq)
+- [Contact](https://ukio.com/contact-us)
+- [Corporate housing](https://ukio.com/corporate-housing): Furnished housing for companies and relocations.
+- [Real estate / property management](https://ukio.com/real-estate): Partner program for property owners.
+- [Blog](https://medium.com/ukio)
+- [Careers](https://apply.workable.com/ukio/)
+- [Terms and conditions](https://ukio.com/terms-and-conditions)
+- [Privacy policy](https://ukio.com/privacy-policy)
+- [Cookie policy](https://ukio.com/cookie-policy)
+
+## APIs
+
+- None published. Probes of stayukio.com / ukio.com found no developer portal, API docs, OpenAPI, or well-known API surface; the GitHub org (https://github.com/UkioInc) contains only a hiring tech-test repository, and no first-party packages exist on npm or PyPI.

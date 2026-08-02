@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of ukio.com / stayukio.com hosts
+notes: >-
+  Both www.stayukio.com and ukio.com are served from the same Vercel
+  infrastructure and answer every path with HTTP 429 (Vercel Security
+  Checkpoint bot challenge, x-vercel-mitigated: challenge), so no well-known
+  document could be retrieved; the statuses below record the challenge
+  response, not a served document. The api., developer., developers., docs.,
+  status. and trust. subdomains of stayukio.com do not resolve (NXDOMAIN).
+  No public developer or API surface was found for this provider.
+hosts:
+- host: https://www.stayukio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 429
+  - path: /.well-known/openid-configuration
+    status: 429
+  - path: /.well-known/oauth-authorization-server
+    status: 429
+  - path: /.well-known/api-catalog
+    status: 429
+  - path: /.well-known/ai-plugin.json
+    status: 429
+  - path: /llms.txt
+    status: 429
+  - path: /robots.txt
+    status: 429
+- host: https://ukio.com
+  documents:
+  - path: /
+    status: 429

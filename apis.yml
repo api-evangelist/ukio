@@ -43,7 +43,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Consumer
-- Real-Estate
+- Real Estate
 - PropTech
 - Housing
 - Rentals
@@ -58,6 +58,7 @@ tags_raw:
 - Rentals
 - Corporate Housing
 - Travel
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
